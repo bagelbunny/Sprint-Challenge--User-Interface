@@ -28,6 +28,11 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+div#logo{
+    display: flex;
+
+}
+
 body {
 	line-height: 1;
 }
@@ -89,7 +94,7 @@ p {
 
 .middle-content {
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    border-bottom: 1px dashed grey;
    
 }
 
@@ -131,16 +136,66 @@ nav#menu {
     align-items: right;
     padding: 20px 2%;
     font-size: 15px;
-    text-decoration-line: none;
+
+ 
+}
+.box1{
+    
+    display: flex;
+}
+.buttom {
+    border: 1px solid red;
+}
+.block {
+  
+  border-bottom: 1px solid black;
+
+}
+.navitem {
+    text-decoration: none;
 }
 div#mainimg {
-    background-image: url('../img/jumbo.jpg');;
+    background-image: url('../img/jumbo-about.png');;
     display: flex;
     flex-wrap: wrap;
     margin-top: 20px;
     margin-bottom: 20px;
     height: 90px;
 }
+
+
+.middle-content .boxes .b1 {
+    background-color: teal;
+}
+.middle-content .boxes .b2 {
+    background-color: gold;
+}
+.middle-content .boxes .b3 {
+    background-color: cadetblue;
+}
+.middle-content .boxes .b4 {
+    background-color: coral;
+}
+.middle-content .boxes .b5 {
+    background-color: crimson;
+}
+.middle-content .boxes .b6 {
+    background-color: forestgreen;
+}
+.middle-content .boxes .b7 {
+    background-color: darkorchid;
+}
+.middle-content .boxes .b8 {
+    background-color: hotpink;
+}
+.middle-content .boxes .b9 {
+    background-color:indigo ;
+}
+.middle-content .boxes .b10 {
+    background-color: dodgerblue;
+}
+
+
 
 .bottom-content {
     display: flex;
