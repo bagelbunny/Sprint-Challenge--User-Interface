@@ -159,7 +159,7 @@ p {
 
 .container {
   width: 800px;
-  margin: 0 auto;
+  margin: 50px auto;
 }
 
 .top-content {
@@ -218,7 +218,7 @@ nav#menu {
 }
 .box1 {
   display: flex;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   justify-content: center;
   margin: 40px;
   width: 100%;
@@ -289,7 +289,7 @@ div#mainimg {
 }
 
 .bottom-content .text-container {
-  padding-right: 4%;
+  padding-right: 10%;
 }
 
 .bottom-content .text-container:last-child {
