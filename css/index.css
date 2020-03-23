@@ -148,8 +148,9 @@ h3,
 h4,
 h5 {
   font-size: 18px;
-  margin-bottom: 15px;
+  margin-bottom: 35px;
   font-family: "Rubik", sans-serif;
+  padding: 10;
 }
 
 p {
@@ -171,7 +172,7 @@ p {
 
 .top-content .text-container {
   width: 48%;
-  padding: 0 1%;
+  padding: 0 2%;
   padding-bottom: 20px;
 }
 
@@ -188,7 +189,7 @@ p {
 .middle-content .boxes {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: sp;
 }
 
 .middle-content .boxes .box {
@@ -217,8 +218,17 @@ nav#menu {
 }
 .box1 {
   display: flex;
-  margin-bottom: auto;
+  margin-bottom: 20px;
+  justify-content: center;
+  margin: 40px;
+  width: 100%;
 }
+.top {
+  display: inline;
+  justify-content: center;
+  margin: 40px;
+}
+
 .buttom {
   display: inline;
   justify-content: center;
@@ -226,8 +236,8 @@ nav#menu {
 }
 .block {
   display: inline;
-  margin: 10px;
-  border-bottom: 1px dotted black;
+  margin: 20px;
+  border-bottom: 2px dotted black;
 }
 .navitem {
   text-decoration: none;
