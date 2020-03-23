@@ -217,12 +217,17 @@ nav#menu {
 }
 .box1 {
   display: flex;
+  margin-bottom: auto;
 }
 .buttom {
-  border: 1px solid red;
+  display: inline;
+  justify-content: center;
+  margin: 40px;
 }
 .block {
-  border-bottom: 1px solid black;
+  display: inline;
+  margin: 10px;
+  border-bottom: 1px dotted black;
 }
 .navitem {
   text-decoration: none;
@@ -232,7 +237,7 @@ div#mainimg {
   display: flex;
   flex-wrap: wrap;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   height: 90px;
 }
 
